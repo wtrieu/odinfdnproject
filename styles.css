@@ -1,27 +1,47 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
 .body {
     box-sizing: border-box;
     font-family: "Roboto";
     font-weight: 400;
     color: black;
+    margin: 0;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper > * {
+    padding: 20px;
+}
+.page-main {
+    flex-grow: 1;
+}
 .container {
-    height: 100px;
-    padding: 16px;
-    background: #1F2937;
+    background-color: #1F2937;
     border: 5px solid #1F2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex: 1 1 0%;
     color: #E5E7EB;
     font-size:18px;
+    padding-left:50px;
   }
 .container .space {
     flex: 2 1 0%;
 }
 .item {
-    width: 100px;
+    width: 130px;
     height: 60px;
 }
 
@@ -29,18 +49,17 @@
     font-weight:700px;
     color: #F9FAF8;
     font-size:24px;
+    padding-right:150px;
 }
 .info {
     color: white;
 }
 .container2 {
     height: 100px;
-    padding: 16px;
-    background: #1F2937;
+    background-color: #1F2937;
     border: 5px solid #1F2937;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
 
   .gallerycontainer {
