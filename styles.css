@@ -4,6 +4,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
+    font-family: "Roboto";
 }
 
 .body {
@@ -17,7 +18,7 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 10vh;
 }
 
 .wrapper > * {
@@ -42,7 +43,7 @@
 }
 .item {
     width: 130px;
-    height: 60px;
+    height: 30px;
 }
 
 .container .logo {
@@ -51,10 +52,43 @@
     font-size:24px;
     padding-right:150px;
 }
-.info {
-    color: white;
+
+.heromaintxt {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
+.info {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 4px 2px;
+  }
 .container2 {
+    background-color: #1F2937;
+    border: 5px solid #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex: 1 1 0%;
+    color: #E5E7EB;
+    font-size:18px;
+    padding-left:50px;
+    padding-bottom: 100px;
+}
+
+  .containercol {
     height: 100px;
     background-color: #1F2937;
     border: 5px solid #1F2937;
@@ -62,7 +96,7 @@
     flex-direction: column;
   }
 
-  .gallerycontainer {
+.gallerycontainer {
     height: 100px;
     padding: 16px;
     background: #1F2937;
@@ -70,4 +104,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.imgcontainer {
+    height: 150px;
+    width: 500px;
+    padding: 65px;
+    font-size: 18px;
+    background-color: #8C92AC;
+    color: #E5E7EB;
+    text-align: center;
   }
+
