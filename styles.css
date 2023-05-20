@@ -186,7 +186,6 @@
     padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
-    
   }
 
   .ctabox {
@@ -222,4 +221,11 @@
     color: #E5E7EB;
     text-align: center;
     padding: 80px 80px;
+  }
+
+  .buttonbox {
+    display: flex;
+    align-self: flex-end;
+    flex-shrink: 0;
+    margin-left: auto;
   }
