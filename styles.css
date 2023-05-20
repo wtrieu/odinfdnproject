@@ -173,3 +173,44 @@
     text-align: right;
     font-size: 24px;
 }
+
+.ctacontainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  .ctabox {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+    padding-left:75px;
+    padding-right: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+
+  .ctatext {
+    padding-right: 125px;
+  }
+
+  .buttonsignup {
+    color: #E5E7EB;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 10px 16px;
+    margin: 4px 2px;
+    font-size: 16px;
+  }
